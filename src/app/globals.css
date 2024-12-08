@@ -1,0 +1,226 @@
+@import url("https://db.onlinewebfonts.com/c/f1fcc5aed1e20fc0cdb9f8a7573625bd?family=Integral+CF+Regular");
+@font-face {
+  font-family: "Integral CF Regular";
+  src: url("https://db.onlinewebfonts.com/t/f1fcc5aed1e20fc0cdb9f8a7573625bd.eot");
+  src: url("https://db.onlinewebfonts.com/t/f1fcc5aed1e20fc0cdb9f8a7573625bd.eot?#iefix") format("embedded-opentype"),
+       url("https://db.onlinewebfonts.com/t/f1fcc5aed1e20fc0cdb9f8a7573625bd.woff2") format("woff2"),
+       url("https://db.onlinewebfonts.com/t/f1fcc5aed1e20fc0cdb9f8a7573625bd.woff") format("woff"),
+       url("https://db.onlinewebfonts.com/t/f1fcc5aed1e20fc0cdb9f8a7573625bd.ttf") format("truetype"),
+       url("https://db.onlinewebfonts.com/t/f1fcc5aed1e20fc0cdb9f8a7573625bd.svg#Integral CF Regular") format("svg");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body{
+  background-color: #F2F0F1;
+}
+
+.discount {
+  width: 100%;
+  height: 38px;
+  background-color: #000000;
+  display: flex;
+  align-items: center; /* Vertically center the content */
+  justify-content: space-between; /* Ensure space between the text and the icon */
+}
+
+.text {
+  display: flex;
+  flex-direction: row; /* Stack the text horizontally */
+  justify-content: center; /* Vertically center the content */
+  align-items: center;
+  margin-left: 600px;
+}
+
+#discountInfo {
+  font-family: "Satoshi";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18.9px;
+  color: #FFFFFF;
+}
+
+#signUpNow {
+  font-family: "Satoshi";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18.9px;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: false;
+  color: #FFFFFF;
+}
+
+#cancelVector {
+  width: 20px; /* Adjusted icon size */
+  height: 20px;
+  color: #FFFFFF;
+  margin-right: 80px; /* Moves the icon 20px from the right edge */
+}
+
+nav .links {
+  display: flex;
+  gap: 2rem;
+}
+
+nav{
+  padding: 2rem 10rem;
+ 
+}
+.logo h1{
+  font-family: "Integral CF Regular" , "sans-serif";
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.li{
+   font-family:"Satoshi";
+   margin-top: 9px;
+   display: flex;
+   justify-content: space-between;
+   gap: 2rem;
+}
+
+.logos {
+   display: flex;
+   justify-content: space-between;
+   gap: 1rem;
+   margin-top: 9px;
+} 
+
+.search-bar {
+  padding: 0rem 10rem 0.05rem 1rem;
+  border-radius: 1rem;
+  outline: none;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  position: relative;
+  background-color: #F0F0F0;
+}
+
+.search-bar .search-icon {
+  font-size: 1.2rem;
+  color: #aaa;
+  margin-right: 0.5rem;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 1rem;
+  font-family: "Satoshi", sans-serif;
+  background-color: transparent;
+}
+
+.rectangle {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.text h1{
+  font-family: "Integral CF Regular" , "sans-serif";
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 64px;
+  color: #000000;
+  margin-left: 6rem;
+}
+
+.text p{
+  font-family: "Satoshi";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #4e4848;
+  margin-left: 6rem;
+}
+
+.text button{
+  font-family: "Satoshi";
+  background-color: #000000;
+  color: #F2F0F1;
+  padding: 0.5rem 4.5rem;
+  margin-left: -20rem;
+  border-radius: 5rem;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+  width: 90%;
+  /* margin-top: -300px; */
+}
+
+.rectangle{
+  background-color: #F2F0F1;
+}
+
+#mainImage{
+  display: flex;
+  flex-direction: column;
+  height: 10rem;
+}
+
+.brands{
+  background-color: #000000;
+  width: 100%;
+  height: 100px;
+  margin-top: 410px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.brands img{
+  margin-top: 35px;
+  width: 91px;
+  height: 38px;
+  margin-left: 7rem;
+  margin-right: 6rem;
+}
+
+.rectangle2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.rectangle2 img{
+  border-radius: 20px;
+  background-color: #F0EEED;
+}
+.rectangle2 h1 {
+  font-family: "Satoshi";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+  margin-left: 4.5rem;
+}
+
+.stars {
+  margin-left: 4.5rem;
+  margin-top: 0.01rem;
+}
+
+.dollars {
+  margin-left: 4.5rem;
+  margin-top: 0.01rem;
+}
+
+#newArrivals{
+  font-family: "Integral CF Regular", "sans-serif";
+  color: #000000;
+  padding: 20px 650px;
+  background-color: #F0F0F0;
+  font-weight: 900;
+  font-size: 27px;
+}
+
+
